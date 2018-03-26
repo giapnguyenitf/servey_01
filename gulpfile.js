@@ -51,5 +51,7 @@ elixir(function(mix) {
    ], 'public/admin/js')
    .copy('node_modules/flipclock/compiled/flipclock.css', 'public/user/css')
    .copy('node_modules/flipclock/compiled/flipclock.min.js', 'public/user/js')
+   .copy('public/bower/font-awesome/css/font-awesome.min.css', 'public/admin/css')
+   .copy('public/bower/font-awesome/fonts', 'public/admin/fonts')
    .version(['public/user/css/*.css', 'public/user/js/*.js', 'public/js/app.js']);
 });
